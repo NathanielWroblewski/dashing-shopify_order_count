@@ -1,0 +1,19 @@
+---
+buzzwords: |+
+  data: {"items":[{"label":"Synergy","value":6},{"label":"Exit strategy","value":6},{"label":"Paradigm shift","value":6},{"label":"Turn-key","value":2},{"label":"Pivoting","value":4},{"label":"Enterprise","value":2},{"label":"Web 2.0","value":1},{"label":"Streamlininess","value":2},{"label":"Leverage","value":1}],"id":"buzzwords","updatedAt":1395030021}
+
+convergence: |+
+  data: {"points":[{"x":31,"y":13},{"x":32,"y":31},{"x":33,"y":2},{"x":34,"y":3},{"x":35,"y":9},{"x":36,"y":4},{"x":37,"y":38},{"x":38,"y":43},{"x":39,"y":11},{"x":40,"y":4}],"id":"convergence","updatedAt":1395030021}
+
+valuation: |+
+  data: {"current":94,"last":69,"id":"valuation","updatedAt":1395030021}
+
+karma: |+
+  data: {"current":153419,"last":44477,"id":"karma","updatedAt":1395030021}
+
+synergy: |+
+  data: {"value":74,"id":"synergy","updatedAt":1395030021}
+
+order_count: |+
+  data: {"total_orders":"10","orders_for_month":"Orders this Month: 20","orders_for_year":"Order this Year: 30","id":"order_count","updatedAt":1395033693}
+

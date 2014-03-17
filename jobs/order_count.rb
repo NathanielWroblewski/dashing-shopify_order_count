@@ -1,8 +1,8 @@
 require 'shopify_api'
 require 'date'
 
-SCHEDULER.every '5m', first_in: 0 do
-  # configuration
+SCHEDULER.every '5s' do |job|
+  configuration
   api_key  = ENV['API_KEY']  # retrieve api key from environment variable
   password = ENV['PASSWORD'] # retrieve api password from environment variable
   shop     = ENV['SHOP']     # retrieve shop name from environment variable
@@ -28,7 +28,7 @@ SCHEDULER.every '5m', first_in: 0 do
   # send data to the view
   send_event('order_count', {
     total_orders:     "#{total_orders}",
-    orders_for_month: "#{orders_for_month}",
-    orders_for_year:  "#{orders_for_year}"
+    orders_for_month: "Orders this Month: #{orders_for_month}",
+    orders_for_year:  "Order this Year: #{orders_for_year}"
   })
 end
